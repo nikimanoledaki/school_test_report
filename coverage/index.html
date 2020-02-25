@@ -14,7 +14,7 @@
       <img src="./assets/0.12.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2020-02-25T09:53:51+00:00">2020-02-25T09:53:51+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2020-02-25T10:06:53+00:00">2020-02-25T10:06:53+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.45
+         1.68
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>33</b> relevant lines,
-    <span class="green"><b>33</b> lines covered</span> and
+    <b>40</b> relevant lines,
+    <span class="green"><b>40</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -73,22 +73,22 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#4c8547b52192fb8a210513d356bed74826488e7b" class="src_link" title="lib/report.rb">lib/report.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">21</td>
-            <td class="cell--number">10</td>
-            <td class="cell--number">10</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">11</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">2.50</td>
+            <td class="cell--number">3.36</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#dab85af00156455ee001da21a3aac0acddd5c1ae" class="src_link" title="spec/report_spec.rb">spec/report_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">39</td>
-            <td class="cell--number">23</td>
-            <td class="cell--number">23</td>
+            <td class="cell--number">51</td>
+            <td class="cell--number">29</td>
+            <td class="cell--number">29</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.03</td>
             
           </tr>
         
@@ -123,8 +123,8 @@
     
 
     <div class="t-line-summary">
-      <b>10</b> relevant lines.
-      <span class="green"><b>10</b> lines covered</span> and
+      <b>11</b> relevant lines.
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -186,29 +186,29 @@
 
             
 
-            <code class="ruby">  def initialize(tests)</code>
+            <code class="ruby">  def pass_tests(tests)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="6" data-linenumber="6">
-            <span class="hits">6</span>
+          <li class="covered" data-hits="8" data-linenumber="6">
+            <span class="hits">8</span>
+            
+
+            
+
+            <code class="ruby">    fail &quot;Error: Value must be a string&quot; unless tests.is_a?(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="7" data-linenumber="7">
+            <span class="hits">7</span>
             
 
             
 
             <code class="ruby">    @tests = tests</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="7">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -219,12 +219,23 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="9">
+          <li class="covered" data-hits="1" data-linenumber="10">
             <span class="hits">1</span>
             
 
@@ -235,24 +246,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="10">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="11">
+            <span class="hits">4</span>
             
 
             
 
             <code class="ruby">    &quot;Green: #{count_tests}&quot;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="11">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -263,12 +263,23 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="13">
+          <li class="covered" data-hits="1" data-linenumber="14">
             <span class="hits">1</span>
             
 
@@ -279,24 +290,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="6" data-linenumber="14">
-            <span class="hits">6</span>
+          <li class="covered" data-hits="7" data-linenumber="15">
+            <span class="hits">7</span>
             
 
             
 
             <code class="ruby">    @tests.split(&quot;, &quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="15">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -307,12 +307,23 @@
 
             
 
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
             <code class="ruby"></code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="17">
+          <li class="covered" data-hits="1" data-linenumber="18">
             <span class="hits">1</span>
             
 
@@ -323,24 +334,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="4" data-linenumber="18">
-            <span class="hits">4</span>
+          <li class="covered" data-hits="5" data-linenumber="19">
+            <span class="hits">5</span>
             
 
             
 
             <code class="ruby">    filter.count</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="19">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -351,12 +351,23 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
           <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -385,8 +396,8 @@
     
 
     <div class="t-line-summary">
-      <b>23</b> relevant lines.
-      <span class="green"><b>23</b> lines covered</span> and
+      <b>29</b> relevant lines.
+      <span class="green"><b>29</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -431,62 +442,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">  describe &#39;#show_tests&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="5">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    it &#39;initializes with tests as a string argument&#39; do</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">      report = Report.new(&quot;&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="7">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">      expect(report.show_tests).to be_a String</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="8">
-            
-            
-
-            
-
-            <code class="ruby">    end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="9">
+          <li class="never" data-hits="" data-linenumber="4">
             
             
 
@@ -497,13 +453,68 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
+          <li class="covered" data-hits="1" data-linenumber="5">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    it &#39;shows count for one test&#39; do</code>
+            <code class="ruby">  describe &#39;#pass_tests&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;allows user to pass string of tests&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      subject.pass_tests(&quot;Green&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.show_tests).to be_a String</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -514,18 +525,18 @@
 
             
 
-            <code class="ruby">      report = Report.new(&quot;Green&quot;)</code>
+            <code class="ruby">    it &#39;raises an error if the value is not a string&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="2" data-linenumber="12">
+            <span class="hits">2</span>
             
 
             
 
-            <code class="ruby">      expect(report.show_tests).to eq &quot;Green: 1&quot;</code>
+            <code class="ruby">      expect{ subject.pass_tests 1 }.to raise_error &quot;Error: Value must be a string&quot;</code>
           </li>
         </div>
       
@@ -547,18 +558,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="15">
+            
             
 
             
 
-            <code class="ruby">    it &#39;tallies tests of same grade&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -569,7 +580,7 @@
 
             
 
-            <code class="ruby">      report = Report.new(&quot;Green, Green&quot;)</code>
+            <code class="ruby">  describe &#39;#show_tests&#39; do</code>
           </li>
         </div>
       
@@ -580,29 +591,29 @@
 
             
 
-            <code class="ruby">      expect(report.show_tests).to eq &quot;Green: 2&quot;</code>
+            <code class="ruby">    it &#39;initializes with tests as a string argument&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      subject.pass_tests(&quot;Green&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="19">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">      expect(subject.show_tests).to be_a String</code>
           </li>
         </div>
       
@@ -613,18 +624,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="21">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="21">
+            
             
 
             
 
-            <code class="ruby">  describe &#39;#filter&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -635,7 +646,7 @@
 
             
 
-            <code class="ruby">    it &#39;appends input tests into an array&#39; do</code>
+            <code class="ruby">    it &#39;shows count for one test&#39; do</code>
           </li>
         </div>
       
@@ -646,7 +657,7 @@
 
             
 
-            <code class="ruby">      report = Report.new(&quot;Green&quot;) </code>
+            <code class="ruby">      subject.pass_tests(&quot;Green&quot;)</code>
           </li>
         </div>
       
@@ -657,7 +668,7 @@
 
             
 
-            <code class="ruby">      expect(report.filter).to eq [&quot;Green&quot;]</code>
+            <code class="ruby">      expect(subject.show_tests).to eq &quot;Green: 1&quot;</code>
           </li>
         </div>
       
@@ -679,18 +690,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="27">
+            
             
 
             
 
-            <code class="ruby">    it &#39;iterates over string to create array of tests&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -701,7 +712,7 @@
 
             
 
-            <code class="ruby">      report = Report.new(&quot;Green, Green&quot;)</code>
+            <code class="ruby">  describe &#39;#filter&#39; do</code>
           </li>
         </div>
       
@@ -712,29 +723,29 @@
 
             
 
-            <code class="ruby">      expect(report.filter).to eq [&quot;Green&quot;, &quot;Green&quot;]</code>
+            <code class="ruby">    it &#39;appends input tests into an array&#39; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="30">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="30">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">      subject.pass_tests(&quot;Green&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="31">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="31">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">      expect(subject.filter).to eq [&quot;Green&quot;]</code>
           </li>
         </div>
       
@@ -745,18 +756,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="33">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="33">
+            
             
 
             
 
-            <code class="ruby">  describe &#39;#count_tests&#39; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -767,7 +778,7 @@
 
             
 
-            <code class="ruby">    it &#39;counts how many tests have been inputed&#39; do</code>
+            <code class="ruby">    it &#39;iterates over string to create array of tests&#39; do</code>
           </li>
         </div>
       
@@ -778,7 +789,7 @@
 
             
 
-            <code class="ruby">      report = Report.new(&quot;Green&quot;)</code>
+            <code class="ruby">      subject.pass_tests(&quot;Green, Green&quot;)</code>
           </li>
         </div>
       
@@ -789,7 +800,7 @@
 
             
 
-            <code class="ruby">      expect(report.count_tests).to eq 1</code>
+            <code class="ruby">      expect(subject.filter).to eq [&quot;Green&quot;, &quot;Green&quot;]</code>
           </li>
         </div>
       
@@ -817,6 +828,138 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="40">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &#39;#count_tests&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="41">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;tallies how many tests have been inputed&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      subject.pass_tests(&quot;Green&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="43">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.count_tests).to eq 1</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="45">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="46">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;tallies tests of same grade&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="47">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      subject.pass_tests(&quot;Green, Green&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="48">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.show_tests).to eq &quot;Green: 2&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="49">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="51">
             
             
 

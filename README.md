@@ -10,12 +10,16 @@
 * Produce count 
 
 ## Acceptance Criteria
-
+```
 $ report.new("Green")
-$ report.showTests 
+$ report.show_tests 
 => "Green: 1"
 
+$ report.new("Green, Green, Amber, Red, Green")
+$ report.show_tests 
+=> "Green: 3\nAmber: 1\nRed: 1" 
 
-Report("Green, Green, Amber, Red, Green") => "Green: 3\nAmber: 1\nRed: 1" 
-Report(1) => "Error"
-Report("") => ("Green, Green, Amber, Red, Green")
+$ report.new(1)
+$ report.show_tests
+=> Error: Not a string
+```

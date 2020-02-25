@@ -2,7 +2,8 @@ class Report
 
   attr_reader :tests
 
-  def initialize(tests)
+  def pass_tests(tests)
+    fail "Error: Value must be a string" unless tests.is_a?(String)
     @tests = tests
   end
 
