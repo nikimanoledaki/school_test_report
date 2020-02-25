@@ -21,7 +21,7 @@ describe Report do
 
     it 'shows count for one test' do
       subject.pass_tests("Green")
-      expect(subject.show_tests).to eq "Green: 1"
+      expect(subject.show_tests).to eq "Green: 1\n Amber: 0\n Red: 0"
     end
   end
 
@@ -38,14 +38,14 @@ describe Report do
   end
 
   describe '#count_tests' do
-    it 'tallies how many tests have been inputed' do
-      subject.pass_tests("Green")
-      expect(subject.count_tests).to eq 1
-    end
-
     it 'tallies tests of same grade' do
       subject.pass_tests("Green, Green")
-      expect(subject.show_tests).to eq "Green: 2"
+      expect(subject.show_tests).to eq "Green: 2\n Amber: 0\n Red: 0"
+    end
+
+    it 'tallies tests of different grade' do
+      subject.pass_tests("Green, Green, Amber")
+      expect(subject.show_tests).to eq "Green: 2\n Amber: 1\n Red: 0"
     end
   end
 end

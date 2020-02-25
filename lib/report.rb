@@ -8,7 +8,7 @@ class Report
   end
 
   def show_tests
-    "Green: #{count_tests}"
+    "Green: #{count_tests["Green"]}\n Amber: #{count_tests["Amber"]}\n Red: #{count_tests["Red"]}"
   end
 
   def filter
@@ -16,7 +16,10 @@ class Report
   end
 
   def count_tests
-    filter.count
+    count = {"Green" => filter.count("Green"),
+             "Amber" => filter.count("Amber"),
+             "Red" => filter.count("Red")
+    }
   end
 
 end
