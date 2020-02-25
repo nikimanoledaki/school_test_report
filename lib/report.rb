@@ -6,12 +6,16 @@ class Report
     @tests = tests
   end
 
-  def showTests
-    "#{@tests}: 1"
+  def show_tests
+    "#{@tests}: #{count_tests}"
   end
 
   def filter
-    [@tests]
+    @tests.split(", ")
+  end
+
+  def count_tests
+    filter.count
   end
 
 end
