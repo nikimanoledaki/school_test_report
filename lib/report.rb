@@ -7,7 +7,7 @@ class Report
   end
 
   def show_tests
-    "#{@tests}: #{count_tests}"
+    "Green: #{count_tests}"
   end
 
   def filter
