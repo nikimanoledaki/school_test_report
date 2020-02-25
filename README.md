@@ -11,6 +11,11 @@
 
 ## Acceptance Criteria
 
+$ report.new("Green")
+$ report.showTests 
+=> "Green: 1"
+
+
 Report("Green, Green, Amber, Red, Green") => "Green: 3\nAmber: 1\nRed: 1" 
 Report(1) => "Error"
 Report("") => ("Green, Green, Amber, Red, Green")

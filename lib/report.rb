@@ -7,7 +7,11 @@ class Report
   end
 
   def showTests
-    @tests
+    "#{@tests}: 1"
+  end
+
+  def filter
+    [@tests]
   end
 
 end
